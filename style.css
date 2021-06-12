@@ -1,0 +1,108 @@
+*{
+    font-family: cursive;
+    font-weight: bold;
+    /* overflow: hidden; */
+}
+.sp{
+    display: flex;
+    align-self: center;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* align-content: center; */
+    /* align-self: center; */
+    /* background-color: antiquewhite; */
+    
+    /* border: 2px solid black; */
+    /* margin:auto; */
+    /* position:relative; */
+    /* height:500px; */
+    background: linear-gradient(-45deg, #8d6e65, #e77ca5, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container{
+    /* border:1px solid black; */
+    padding:77px;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: space-between; */
+    /* height: fit-content; */
+    /* width: fit-content; */
+}
+.playername{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.playbtn{
+    /* flex-wrap: nowrap; */
+    /* justify-self: center; */
+    display: flex;
+    flex-direction: column;
+
+}
+.on{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04a5aa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  /* .button:hover {background-color: #d87b56} */
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .start{
+      padding: 2px;
+      display: flex;
+      align-self: center;
+      /* justify-content: space-between; */
+      flex-direction: column;
+  }
+.bttn{
+    background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+input{
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: center;
+    color: navy;
+}
+input::placeholder{
+    color:blue;
+}

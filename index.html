@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC TAC TOE...</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sp">
+            <span>Welcome to tic tac toe game.</span>
+        </div>
+        <div class="playername">
+           <span>Player X:</span><input type="text" placeholder="enter your name" value="" id="xnm"/>
+            <span>Player O:</span><input type="text" placeholder="enter your name" value="" id="onm"/>
+        </div>
+        <br>
+        <div class="start">
+            <button class="bttn" onclick="run()" id="players">Play</button>
+            <label for="" id="instruct">Keys are disabled</label>
+         </div>
+         <div class="playbtn">
+            <div class="on"><button disabled class="button" id="bt1" onclick="put('bt1')">-</button><button disabled class="button" id="bt2" onclick="put('bt2')">-</button><button disabled class="button" id="bt3" onclick="put('bt3')">-</button></div>
+            <div class="on"> <button disabled class="button" id="bt4" onclick="put('bt4')">-</button><button disabled class="button" id="bt5" onclick="put('bt5')">-</button><button disabled class="button" id="bt6" onclick="put('bt6')">-</button></div>
+             <div class="on"> <button disabled class="button" id="bt7" onclick="put('bt7')">-</button><button disabled class="button" id="bt8" onclick="put('bt8')">-</button><button disabled class="button" id="bt9" onclick="put('bt9')">-</button></div>
+         </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
